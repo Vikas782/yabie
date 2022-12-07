@@ -1,0 +1,130 @@
+* {
+    outline: none !important;
+}
+
+// fonts
+@import 'modules/fonts';
+
+// bootstrap
+@import "bootstrap";
+@import 'modules/extend';
+
+body{
+    font-family: $font-family-myriadpro;
+    @include scrollerY(#ddd,#333,0.3,8);
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+a img,
+:link img {
+    border: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+fieldset {
+    border: 0;
+}
+
+// we don't want the yellow background of webkit
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-weight-bold;
+}
+
+hr.hr{
+    color:$dark;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.title{
+    //font-size: rfs-value(20px);
+    //font-size: rfs-fluid-value(6rem);
+}
+
+
+
+.scroller{
+    &-waper{
+    
+    }
+    &-content{
+        transition: all 0.04s;
+        -webkit-transition: all 0.04s;
+    }
+    @extend %cover-img;
+}
+
+
+//yabie project styling
+
+.container{
+    padding: 0;
+}
+
+
+
+
+
+
+
+@media print {
+    .container {
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+// X-Large devices (extra large desktops, less than 1800px)
+@include media-breakpoint(null, 1800px) {
+
+}
+
+// X-Large devices (extra large desktops, less than 1600px)
+@include media-breakpoint(null, 1600px) {
+
+}
+
+
+// X-Large devices (large desktops, less than 1400px)
+@include media-breakpoint-down(xxl) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(xl) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(lg) {
+
+}
+
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(md) {
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+
+}

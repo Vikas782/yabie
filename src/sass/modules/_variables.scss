@@ -1,0 +1,67 @@
+
+
+
+
+// Default variable overrides
+
+$body-bg: #fff;
+$body-color: #444;
+$enable-smooth-scroll:false;
+
+$modal-lg: 900px;
+$primary: #0085ff;
+
+
+// new variable
+$font-family-myriadpro: 'myriadpro',arial;
+$font-weight-medium:       500;
+$font-weight-semibold:     600;
+
+
+
+//$display-font-sizes: (
+//		1: rem(85),
+//		2: rem(72),
+//		3: rem(60),
+//		4: rem(53),
+//		5: rem(48),
+//		6: rem(42)
+//);
+
+
+//$display-font-weight: 400;
+
+
+//$gutters: (
+//		0: 0,
+//		1: $spacer * .25,
+//		2: $spacer * .5,
+//		3: $spacer,
+//		4: $spacer * 1.5,
+//		5: $spacer * 3,
+//		6: $spacer * 4,
+//		7: $spacer * 5,
+//);
+//
+//$spacers: (
+//		0: 0,
+//		1: $spacer * .25,
+//		2: $spacer * .5,
+//		3: $spacer,
+//		4: $spacer * 1.5,
+//		5: $spacer * 3,
+//		6: $spacer * 4,
+//		7: $spacer * 5,
+//);
+
+//$gradient: linear-gradient(100deg, rgba($black, var(--bs-bg-opacity)), rgba($white, 0));
+
+$enable-negative-margins: true;
+
+
+// Bootstrap and its default variables
+@import "~bootstrap/scss/variables";
+
+
+
+

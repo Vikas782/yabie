@@ -1,0 +1,28 @@
+
+//fonts
+$path:'../fonts/MyriadPro';
+
+
+@font-face {
+  font-family: 'myriadpro';
+  src: url('#{$path}/MyriadPro-bold.eot'); /* IE9 Compat Modes */
+  src: url('#{$path}/MyriadPro-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('#{$path}/MyriadPro-bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('#{$path}/MyriadPro-bold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('#{$path}/MyriadPro-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('#{$path}/MyriadPro-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriadpro';
+  src: url('#{$path}/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('#{$path}/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('#{$path}/MyriadPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('#{$path}/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('#{$path}/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('#{$path}/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}

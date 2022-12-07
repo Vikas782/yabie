@@ -1,0 +1,38 @@
+
+
+// Default maps overrides
+
+//grid and container mapping
+$grid-breakpoints-custom:(
+        lg: 1200px,
+        xl: 1440px,
+        xxl: 1680px
+);
+
+$container-max-widths-custom:(
+        lg: 1180px,
+        xl: 1200px,
+        xxl: 1512px
+);
+
+
+
+$custom-colors: (
+    "orange": $orange
+);
+
+
+// Merge the maps
+$grid-breakpoints: map-merge($grid-breakpoints, $grid-breakpoints-custom);
+$container-max-widths: map-merge($container-max-widths, $container-max-widths-custom);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// Remove from map
+//$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+
+// Bootstrap and its default maps
+@import "~bootstrap/scss/maps";
+
+
