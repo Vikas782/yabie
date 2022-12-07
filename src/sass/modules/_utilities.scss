@@ -19,7 +19,6 @@ $utilities: map-merge(
                     values: map-merge(map-get(map-get($utilities, "font-weight"), "values"),
                         (
                             medium: $font-weight-medium,
-                            semibold: $font-weight-semibold,
                         ),
                     ),
                 ),
@@ -56,6 +55,7 @@ $utilities: map-merge(
                     )
                 ),
             ),
+
             /*"color": map-merge(map-get($utilities, "color"),
                 (
                     values: map-merge(map-get(map-get($utilities, "color"), "values"),
