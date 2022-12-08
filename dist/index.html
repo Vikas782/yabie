@@ -3,7 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <!-- style -->
     <link href="css/style.css" rel="stylesheet">
@@ -12,49 +12,98 @@
     <link href="css/animate.min.css" rel="stylesheet">
 
     <!-- swiper-->
-    <link rel="stylesheet" href="css/swiper/swiper-bundle.min.css" />
+    <link href="css/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
     <title>Boilerplate Template</title>
 </head>
 <body>
-<header>
- <div class="container px-84 pb-60">
-     <nav class="navbar navbar-expand-lg py-24">
-             <img src="images/header-logo.png">
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 <ul class="navbar-nav ms-auto">
-                     <li class="nav-item">
-                         <a class="nav-link paragraph-14" aria-current="page" href="#">Produkt</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link paragraph-14"  >Betalning</a>
-                     </li>
-                     <li class="nav-item" href="#">
-                         <a class="nav-link paragraph-14">Integration</a>
-                     </li>
-                     <li class="nav-item" href="#">
-                         <a class="nav-link paragraph-14">Support</a>
-                     </li>
-                     <li class="nav-item" href="#">
-                         <a class="nav-link paragraph-14">En</a>
-                     </li>
-                 </ul>
-                 <button type="button" class="btn btn-success paragraph-14 ms-24">Kontakta oss</button>
-             </div>
-     </nav>
-     <div class="header-content">
-         <h1 class="text-white">Ta betalt. Ta kontroll.</h1>
-     </div>
-
- </div>
+<header class="pb-60">
+    <div class="container px-84 ">
+        <nav class="navbar navbar-expand-lg py-24">
+            <img src="images/header-logo.png">
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link paragraph-14" href="#">Produkt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link paragraph-14">Betalning</a>
+                    </li>
+                    <li class="nav-item" href="#">
+                        <a class="nav-link paragraph-14">Integration</a>
+                    </li>
+                    <li class="nav-item" href="#">
+                        <a class="nav-link paragraph-14">Support</a>
+                    </li>
+                    <li class="nav-item" href="#">
+                        <a class="nav-link paragraph-14">En</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success paragraph-14 ms-24" type="button">Kontakta oss</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1 class="text-white">Ta betalt. Ta kontroll.</h1>
+        </div>
+    </div>
 </header>
 
+<section class="perceptive pt-60 pb-120">
+    <div class="container px-84">
+        <div class="heading">
+            <p class="paragraph-12 mb-12">Vår lösning</p>
+            <h2>Gör det du brinner för. Låt din kassa sköta resten.</h2>
+        </div>
 
+        <div class="perceptive-content pt-60 pb-120">
+            <div class="row d-flex justify-content-center gx-24 py-60">
+                <div class="col-4 d-flex align-items-center px-60 py-24">
+                    <div class="desc">
+                    <h4 class="mb-36">En kassa utan krångel.</h4>
+                    <p class="paragraph-14">Komplicerade installationer, svårförståelig navigering och långsamma uppdateringar gör oss tokiga. Det ska inte vara svårt att ta betalt. Ändå ser vardagen ut så för dig och många andra. Vi raderar allt krångel så att du kan styra kassan och inte tvärtom.</p>
+                    </div>
+                </div>
+                <div class="col-5">
+                <img src="images/preceptive-image1.png">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center  gx-24 py-60">
+                <div class="col-5">
+                    <img src="images/preceptive-image2.png">
+                </div>
+                <div class="col-4 d-flex align-items-center px-60 py-24">
+                    <div class="desc">
+                        <h4 class="mb-36">Ett system.Allt du behöver.</h4>
+                        <p class="paragraph-14">Sitt kvar i förarsätet och nöj dig med ett enda system. Här tar du betalt och håller koll på din försäljning i samma lösning. Alla måsten går fort och framförallt, smärtfritt. Du sparar tid och förenklar din arbetsdag. Eftersom tjänsten dessutom är molnbaserad kan du arbeta var som helst och aldrig oroa dig för backup.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-24 d-flex justify-content-center py-60">
+                <div class="col-4 d-flex align-items-center px-60 py-24">
+                    <div class="desc">
+                        <h4 class="mb-36">Gör det du drömmer om. </h4>
+                        <p class="paragraph-14">När allt det administrativa bara flyter på, är du fri att göra det som verkligen betyder något för dig. Led och utveckla verksamheten, jobba på kundkontakten eller - åk på semester! Oavsett vad du drömmer om, har vi gjort det enklare för dig att fokusera på det.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="images/preceptive-image3.png">
+                </div>
 
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="asset">
+<div class="container">
+    
+</div>
+</section>
 
 
 <!-- jquery -->
